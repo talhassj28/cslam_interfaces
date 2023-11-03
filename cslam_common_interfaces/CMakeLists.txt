@@ -64,6 +64,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/LocalKeyframeMatch.msg"
   "msg/InterRobotMatch.msg"
   "msg/InterRobotMatches.msg"
+  "srv/MapPath.srv"
   DEPENDENCIES
   sensor_msgs
   geometry_msgs
